@@ -26,7 +26,7 @@ const generateLicenseSection = async (github, repo) => {
           });
       };
     });
-    return ret;
+  return ret;
 }
 
 // function to generate markdown for README
@@ -44,7 +44,7 @@ const generateMarkdown = async data => {
 `
   }
 
-  
+
   // repo badges
 
   addSections += `${renderBadges(data.github, data.repo, data.license)}`
